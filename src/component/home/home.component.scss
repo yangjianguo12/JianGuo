@@ -1,0 +1,27 @@
+
+.background{
+  margin-top: 30vh;
+  background-color: black;
+  width: 100%;
+  height: 190vh;
+  position: absolute;
+  &::before{
+    content: '';
+    position: absolute;
+    height: 10vh;
+    width: 20%;
+    background-color: pink;
+    transform: translateY(-50%);
+    border-radius: 0 138% 0 0;
+  }
+}
+.one-w{
+  background-color: pink;
+  width: 80%;
+  height: 100%;
+  float: right;
+}
+.page{
+  height: 100vh;
+  width: 100%;
+}
